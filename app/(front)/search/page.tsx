@@ -104,7 +104,7 @@ export default async function SearchPage({
   return (
     <div className="grid md:grid-cols-5 md:gap-5">
       <div>
-        <div className="text-xl pt-3">Department</div>
+        <div className="text-xl pt-3">Category</div>
         <div>
           <ul>
             <li>
