@@ -23,10 +23,10 @@ export default async function Home() {
           <div
             key={product._id}
             id={`slide-${index}`}
-            className="carousel-item relative w-full"
+            className="carousel-item relative w-full lg:h-80"
           >
-            <Link href={`/product/${product.slug}`}>
-              <img src={product.banner} className="w-full" alt={product.name} />
+            <Link href={`/product/${product.slug}`} className="w-full" style={{ backgroundImage: `url(${product.banner})`, backgroundSize: 'cover' }}>
+              {/* <img src={product.banner} className="w-full" alt={product.name} /> */}
             </Link>
 
             <div
